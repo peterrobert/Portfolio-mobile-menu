@@ -11,9 +11,7 @@
   <body>
     <header>
       <h1 id="logo">Aziz Mejri</h1>
-      <button type="button" id="open_close" class="menu-bars">
-        <i class="fas fa-bars"></i>
-      </button>
+  
       <nav id="desktop-nav">
         <ul>
           <li><a class="nav-link" href="#projects">Portoflio</a></li>
@@ -25,6 +23,18 @@
           </li>
         </ul>
       </nav>
+
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="nav-link" href="#projects">Portoflio</a>
+        <a class="nav-link" href="#about-me">About</a>
+        <a href="#contact">Contact</a>
+    
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <span onclick="openNav()">  <i class="fas fa-bars"></i></span>
     </header>
     <main>
       <div id="intro">
