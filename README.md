@@ -4,7 +4,7 @@
 
 > This is a project for microverse 2.0 training
 
-![screenshot](./app_screenshot.png)
+![screenshot](screenshot.png)
 
 Additional description about the project and its features.
 
